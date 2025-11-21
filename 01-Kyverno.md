@@ -12,3 +12,12 @@ As Devops engineer you have to make sure that compliance or rules are match. thi
 # Admission Controller
 Not everybody has a knowledge of Golang language, Admission Controller basically does validate, mutate the authenticated and authorize users 
 ()[https://github.com/kyverno/policies]
+
+So manually you can fo governance of Kubernetes cluster using kyverno (dynamic adimission controller) where you can simplify process, instead of writting admission controller. you will just write kyverno costume resources, package it into yaml file and kyverno will automatically create this ``admission controller`` with some webhooks configuration. 
+
+# Kyverno can Do these things: 
+- Generate -> For example, Create a default network policy whenever a namespace is created.
+- Validate -> For example, Block users from using ``latest`` tag in the deployment or pod resources.
+- Mutate -> For example, Attach pod security policy for a pod that is created without any pod security policy configuration.
+- Verify Images -> For example, Verify if the Images used in the pod resources are properly signed and verified images.
+
