@@ -20,4 +20,4 @@ So manually you can force the governance of Kubernetes cluster using kyverno (dy
 - Mutate -> For example, Attach pod security policy for a pod that is created without any pod security policy configuration.
 - Verify Images -> For example, Verify if the Images used in the pod resources are properly signed and verified images.
 
-(Labs to get hands on experience with kyverno)[https://kodekloud.com/public-playgrounds/kubernetes-kyverno-lab]
+[Labs to get hands on experience with kyverno](https://kodekloud.com/public-playgrounds/kubernetes-kyverno-lab)
